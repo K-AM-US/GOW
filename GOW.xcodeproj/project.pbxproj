@@ -43,6 +43,10 @@
 		11239FF52A7F412C0034C032 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
 		11239FF62A7F412C0034C032 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		11239FF72A7F412C0034C032 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = ../it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11239FF82A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		11239FF92A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		11239FFA2A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = ../sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11239FFB2A7F4C770034C032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,7 @@
 				en,
 				Base,
 				it,
+				sv,
 			);
 			mainGroup = 11239FB92A7EA1700034C032;
 			productRefGroup = 11239FC32A7EA1710034C032 /* Products */;
@@ -228,6 +233,7 @@
 			children = (
 				11239FCC2A7EA1710034C032 /* Base */,
 				11239FF52A7F412C0034C032 /* it */,
+				11239FF82A7F465B0034C032 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			children = (
 				11239FD12A7EA1710034C032 /* Base */,
 				11239FF62A7F412C0034C032 /* it */,
+				11239FF92A7F465B0034C032 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -246,6 +253,8 @@
 			children = (
 				11239FF32A7F3FB40034C032 /* Base */,
 				11239FF72A7F412C0034C032 /* it */,
+				11239FFA2A7F465B0034C032 /* sv */,
+				11239FFB2A7F4C770034C032 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

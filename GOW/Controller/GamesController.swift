@@ -32,14 +32,16 @@ class GamesController: UIViewController {
             posterImage.image = UIImage(named: String(gamePoster[posterPageControl.currentPage]))
         }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func leftSwipeDone(_ sender: Any) {
+        if posterPageControl.currentPage == 7 {
+            posterPageControl.currentPage = 0
+            posterImage.image = UIImage(named: String(gamePoster[posterPageControl.currentPage]))
+        }
+        else{
+            posterPageControl.currentPage = posterPageControl.currentPage + 1
+            posterImage.image = UIImage(named: String(gamePoster[posterPageControl.currentPage]))
+        }
     }
-    */
-
+    
 }

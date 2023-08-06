@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  GOW
+
+  Created by Mauricio Casillas on 05/08/23.
+  
+*/
+
+"menu.option.videogames" = "Videospel";
+"menu.option.weapons" = "Vapen";
+"menu.option.characters" = "Karaktär";
+"menu.option.merchandise" = "Handelsvaror";
+
+// GOG
+"weapon.name.m1lancer" = "Mark 1 Lancer Assault Rifle";
+"weapon.name.m2lancer" = "Mark 2 Lancer Assault Rifle";
+"weapon.name.longshot" = "Longshot Sniper Rifle";
+"weapon.name.hammer" = "Hammer of Dawn";
+"weapon.name.pistol" = "MX8 Snub Pistol";
+
+"weapon.description.m1lancer" = "Dubbad Retro Lancer under Lambent Pandemic, var föregångaren till Mark 2 Lancer Assault Rifle. Tidigare det huvudsakliga geväret för Coalition of Ordered Governments Army, Mark 1 Assault Rifle användes under pendelkriget.";
+"weapon.description.m2lancer" = "En uppgradering till Mark 1 Lancer Assault Rifle, producerad med en motorsågsbajonett, ökad noggrannhet, lägre rekyl och större ammunitionskapacitet men mindre eldkraft jämfört med föregångaren.";
+"weapon.description.longshot" = "Var ett högkaliber, enskotts, bultverkande prickskyttegevär. Skapat av koalitionen av beordrade regeringar under pendelkrigen, användes Longshot även sjutton år efter Emergence Day.";
+"weapon.description.hammer" = "The Hammer of Dawn var en COG Imulsion-energiserad, orbital, satellitbaserad laser. Dess nyckelkomponenter uppfanns av UIR-forskaren Mauris Ivo och kompletterades av professor Adam Fenix ​​efter att den stals under Operation: Leveler.";
+"weapon.description.pistol" = "Var standard sidovapen för Coalition of Ordered Governments väpnade styrkor personal";
+
+// Locust
+"weapon.name.boomshot" = "Boomshot Grenade Launcher";
+"weapon.name.hammerburst" = "Hammerburst II";
+"weapon.name.mulcher" = "Mulcher";
+"weapon.name.bolo" = "Bolo Grenade";
+"weapon.name.boltok" = "Boltok Pistol";
+ 
+"weapon.description.boomshot" = "Var en enskjuts, pump-action granatkastare designad och användes främst av Locust, närmare bestämt Boomer.";
+"weapon.description.hammerburst" = "Var Locust standardutgåva, kraftfullt automatgevär. Det hänvisas ofta till som Locust-motsvarigheten till COG Lancer Assault Rifle.";
+"weapon.description.mulcher" = "Mulcher är en tung, handvevad, roterande gatlingpistol utvecklad av Coalition of Ordered Governments.";
+"weapon.description.bolo" = "Bolo-granaten, även känd som Fragmenteringsgranaten, var den standardutgåva fragmenteringsgranaten som användes av Coalition of Ordered Governments, Locust Horde och Swarm.";
+"weapon.description.boltok" = "Var standardutgåvans sidoarm av Locust, närmare bestämt Drönarna. Pistolen fortsätter Locusts vapendesignfilosofi att skapa vapen med betoning på brute force.";
+
+
+

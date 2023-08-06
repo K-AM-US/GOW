@@ -6,10 +6,11 @@
   
 */
 
-"menu.option.videogames" = "Video gioco";
-"menu.option.weapons" = "Armi";
-"menu.option.characters" = "Caratteri";
-"menu.option.merchandise" = "Merce";
+"menu.option.videogames" = "Video game";
+"menu.option.weapons" = "Weapons";
+"menu.option.characters" = "Characters";
+"menu.option.merchandise" = "Merchandise";
+
 
 // GOG
 "weapon.name.m1lancer" = "Mark 1 Lancer Assault Rifle";
