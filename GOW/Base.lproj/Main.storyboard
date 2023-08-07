@@ -91,7 +91,7 @@
             </objects>
             <point key="canvasLocation" x="1718.3206106870227" y="3.5211267605633805"/>
         </scene>
-        <!--Item-->
+        <!--COG-->
         <scene sceneID="e2U-48-dCj">
             <objects>
                 <viewController id="42q-FH-com" customClass="WeaponsController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
@@ -242,7 +242,7 @@
                             <constraint firstItem="SDP-eD-pJA" firstAttribute="leading" secondItem="5OR-Rp-MWh" secondAttribute="leading" id="y1v-Yh-jd6"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="nTy-Ut-IDp"/>
+                    <tabBarItem key="tabBarItem" title="COG" image="gearshape.fill" catalog="system" id="nTy-Ut-IDp"/>
                     <navigationItem key="navigationItem" id="w6C-V0-GHE"/>
                     <connections>
                         <outlet property="gowTableView" destination="SDP-eD-pJA" id="37N-xX-iCI"/>
@@ -339,6 +339,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="headerGOW" width="393" height="346"/>
         <namedColor name="GOWBlack1">
             <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

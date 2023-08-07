@@ -12,11 +12,11 @@
 "menu.option.merchandise" = "Handelsvaror";
 
 // GOG
-"weapon.name.m1lancer" = "Mark 1 Lancer Assault Rifle";
-"weapon.name.m2lancer" = "Mark 2 Lancer Assault Rifle";
-"weapon.name.longshot" = "Longshot Sniper Rifle";
+"weapon.name.m1lancer" = "Mark 1 Lancer Automatkarbin";
+"weapon.name.m2lancer" = "Mark 2 Lancer Automatkarbin";
+"weapon.name.longshot" = "Longshot Prickskyttegevär";
 "weapon.name.hammer" = "Hammer of Dawn";
-"weapon.name.pistol" = "MX8 Snub Pistol";
+"weapon.name.pistol" = "MX8 snubbpistol";
 
 "weapon.description.m1lancer" = "Dubbad Retro Lancer under Lambent Pandemic, var föregångaren till Mark 2 Lancer Assault Rifle. Tidigare det huvudsakliga geväret för Coalition of Ordered Governments Army, Mark 1 Assault Rifle användes under pendelkriget.";
 "weapon.description.m2lancer" = "En uppgradering till Mark 1 Lancer Assault Rifle, producerad med en motorsågsbajonett, ökad noggrannhet, lägre rekyl och större ammunitionskapacitet men mindre eldkraft jämfört med föregångaren.";
@@ -25,10 +25,10 @@
 "weapon.description.pistol" = "Var standard sidovapen för Coalition of Ordered Governments väpnade styrkor personal";
 
 // Locust
-"weapon.name.boomshot" = "Boomshot Grenade Launcher";
+"weapon.name.boomshot" = "Boomshot granatkastare";
 "weapon.name.hammerburst" = "Hammerburst II";
 "weapon.name.mulcher" = "Mulcher";
-"weapon.name.bolo" = "Bolo Grenade";
+"weapon.name.bolo" = "Bolo granat";
 "weapon.name.boltok" = "Boltok Pistol";
  
 "weapon.description.boomshot" = "Var en enskjuts, pump-action granatkastare designad och användes främst av Locust, närmare bestämt Boomer.";
