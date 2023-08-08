@@ -94,7 +94,7 @@
         <!--COG-->
         <scene sceneID="e2U-48-dCj">
             <objects>
-                <viewController id="42q-FH-com" customClass="WeaponsController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="cogUi" id="42q-FH-com" customClass="WeaponsController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xte-1C-d8S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Xh-wT-bf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3756.4885496183206" y="-30.281690140845072"/>
+            <point key="canvasLocation" x="3960" y="-171"/>
         </scene>
         <!--Games Controller-->
         <scene sceneID="KTN-Op-dlv">
@@ -331,16 +331,180 @@
                     </tabBar>
                     <connections>
                         <segue destination="42q-FH-com" kind="relationship" relationship="viewControllers" id="QNX-D6-ztI"/>
+                        <segue destination="iwg-6Z-6v2" kind="relationship" relationship="viewControllers" id="7aK-hB-RS6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcX-3t-w1c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2829.770992366412" y="-30.281690140845072"/>
         </scene>
+        <!--Locust-->
+        <scene sceneID="32G-Wa-BqI">
+            <objects>
+                <viewController restorationIdentifier="locustUi" id="iwg-6Z-6v2" customClass="WeaponsController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="86o-OZ-cbs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerLocus" translatesAutoresizingMaskIntoConstraints="NO" id="ZJm-oB-xT6">
+                                <rect key="frame" x="0.0" y="103" width="393" height="200"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="o56-wu-hof"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d1Z-2n-a0W">
+                                <rect key="frame" x="0.0" y="313" width="393" height="456"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" name="GOWBlack1"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" rowHeight="300" id="pkJ-B0-04n" customClass="WeaponCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pkJ-B0-04n" id="Bg3-1H-kEX">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBe-FI-RsH">
+                                                    <rect key="frame" x="20" y="21" width="353" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="bct-2d-7ya"/>
+                                                    </constraints>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Label">
+                                                            <attributes>
+                                                                <color key="NSColor" name="GOWText"/>
+                                                                <font key="NSFont" size="17" name="CGFLocustResistance"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wBY-6J-aTN">
+                                                    <rect key="frame" x="20" y="71" width="353" height="150"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="XL1-4g-TC5"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Is-rU2">
+                                                    <rect key="frame" x="20" y="231" width="353" height="58"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" name="GOWText"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" name="GOWBlack1"/>
+                                            <constraints>
+                                                <constraint firstItem="vBe-FI-RsH" firstAttribute="top" secondItem="Bg3-1H-kEX" secondAttribute="topMargin" constant="10" id="1Gs-Rp-h2Z"/>
+                                                <constraint firstItem="wBY-6J-aTN" firstAttribute="leading" secondItem="Bg3-1H-kEX" secondAttribute="leadingMargin" id="2T9-vz-Aqr"/>
+                                                <constraint firstItem="xXs-Is-rU2" firstAttribute="top" secondItem="wBY-6J-aTN" secondAttribute="bottom" constant="10" id="2XE-L9-4X5"/>
+                                                <constraint firstItem="wBY-6J-aTN" firstAttribute="top" secondItem="vBe-FI-RsH" secondAttribute="bottom" constant="10" id="6k9-pl-tjM"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="xXs-Is-rU2" secondAttribute="bottom" id="INN-ng-5CH"/>
+                                                <constraint firstItem="vBe-FI-RsH" firstAttribute="leading" secondItem="Bg3-1H-kEX" secondAttribute="leadingMargin" id="T1n-ht-qOD"/>
+                                                <constraint firstItem="xXs-Is-rU2" firstAttribute="leading" secondItem="Bg3-1H-kEX" secondAttribute="leadingMargin" id="ba5-Ub-Sgl"/>
+                                                <constraint firstItem="vBe-FI-RsH" firstAttribute="trailing" secondItem="Bg3-1H-kEX" secondAttribute="trailingMargin" id="bkC-So-g9P"/>
+                                                <constraint firstItem="wBY-6J-aTN" firstAttribute="trailing" secondItem="Bg3-1H-kEX" secondAttribute="trailingMargin" id="vFD-5U-cGr"/>
+                                                <constraint firstItem="xXs-Is-rU2" firstAttribute="trailing" secondItem="Bg3-1H-kEX" secondAttribute="trailingMargin" id="wAS-nR-1dK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
+                                        <connections>
+                                            <outlet property="wDescription" destination="xXs-Is-rU2" id="a1R-qe-OHw"/>
+                                            <outlet property="wImage" destination="wBY-6J-aTN" id="5EU-0Q-NTb"/>
+                                            <outlet property="wName" destination="vBe-FI-RsH" id="TuU-5w-ivh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell2" rowHeight="300" id="zhE-R7-Kz6" customClass="WeaponCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="350" width="393" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zhE-R7-Kz6" id="NBS-YF-1vO">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-Ew-Nj5">
+                                                    <rect key="frame" x="20" y="21" width="353" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="GdA-F7-nKv"/>
+                                                    </constraints>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Label">
+                                                            <attributes>
+                                                                <color key="NSColor" name="GOWText"/>
+                                                                <font key="NSFont" size="17" name="CGFLocustResistance"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="GBW-ag-TJL">
+                                                    <rect key="frame" x="20" y="81" width="160" height="208"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="160" id="RPT-Sc-Ta3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" name="GOWText"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Kh-iD-goY">
+                                                    <rect key="frame" x="190" y="71" width="183" height="218"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3Kh-iD-goY" firstAttribute="bottom" secondItem="NBS-YF-1vO" secondAttribute="bottomMargin" id="7LG-Zt-VOd"/>
+                                                <constraint firstItem="Alf-Ew-Nj5" firstAttribute="top" secondItem="NBS-YF-1vO" secondAttribute="topMargin" constant="10" id="KeT-5j-Ycj"/>
+                                                <constraint firstItem="GBW-ag-TJL" firstAttribute="top" secondItem="Alf-Ew-Nj5" secondAttribute="bottom" constant="20" id="N5Q-j6-D8b"/>
+                                                <constraint firstItem="Alf-Ew-Nj5" firstAttribute="leading" secondItem="NBS-YF-1vO" secondAttribute="leadingMargin" id="QM7-LF-uA4"/>
+                                                <constraint firstItem="3Kh-iD-goY" firstAttribute="trailing" secondItem="NBS-YF-1vO" secondAttribute="trailingMargin" id="cql-0m-ij2"/>
+                                                <constraint firstItem="3Kh-iD-goY" firstAttribute="leading" secondItem="GBW-ag-TJL" secondAttribute="trailing" constant="10" id="hEZ-h8-Gw8"/>
+                                                <constraint firstItem="Alf-Ew-Nj5" firstAttribute="trailing" secondItem="NBS-YF-1vO" secondAttribute="trailingMargin" id="i9V-ey-9Tg"/>
+                                                <constraint firstItem="3Kh-iD-goY" firstAttribute="top" secondItem="Alf-Ew-Nj5" secondAttribute="bottom" constant="10" id="ndd-jO-3US"/>
+                                                <constraint firstItem="GBW-ag-TJL" firstAttribute="leading" secondItem="NBS-YF-1vO" secondAttribute="leadingMargin" id="oEi-VY-wWI"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GBW-ag-TJL" secondAttribute="bottom" id="xga-BB-bIb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
+                                        <color key="tintColor" name="GOWText"/>
+                                        <connections>
+                                            <outlet property="wDescription" destination="GBW-ag-TJL" id="xm5-Ec-azs"/>
+                                            <outlet property="wImage" destination="3Kh-iD-goY" id="8Z3-3b-jqB"/>
+                                            <outlet property="wName" destination="Alf-Ew-Nj5" id="GIJ-xb-hZJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="iwg-6Z-6v2" id="uzb-gr-USg"/>
+                                    <outlet property="delegate" destination="iwg-6Z-6v2" id="8xX-tV-ecV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eUM-GK-qTz"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
+                        <constraints>
+                            <constraint firstItem="d1Z-2n-a0W" firstAttribute="trailing" secondItem="eUM-GK-qTz" secondAttribute="trailing" id="AYi-2n-j1c"/>
+                            <constraint firstItem="ZJm-oB-xT6" firstAttribute="leading" secondItem="eUM-GK-qTz" secondAttribute="leading" id="JVF-JF-OBk"/>
+                            <constraint firstItem="d1Z-2n-a0W" firstAttribute="top" secondItem="ZJm-oB-xT6" secondAttribute="bottom" constant="10" id="Uyp-O8-o7U"/>
+                            <constraint firstItem="d1Z-2n-a0W" firstAttribute="leading" secondItem="eUM-GK-qTz" secondAttribute="leading" id="f00-3z-vV4"/>
+                            <constraint firstItem="ZJm-oB-xT6" firstAttribute="top" secondItem="eUM-GK-qTz" secondAttribute="top" id="sSk-V0-cT7"/>
+                            <constraint firstItem="d1Z-2n-a0W" firstAttribute="bottom" secondItem="eUM-GK-qTz" secondAttribute="bottom" id="ubu-db-Gdy"/>
+                            <constraint firstItem="ZJm-oB-xT6" firstAttribute="trailing" secondItem="eUM-GK-qTz" secondAttribute="trailing" id="vRo-2m-o8A"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Locust" image="ant.fill" catalog="system" id="CG1-rl-gnp"/>
+                    <navigationItem key="navigationItem" id="emb-vz-PJu"/>
+                    <connections>
+                        <outlet property="gowTableView" destination="d1Z-2n-a0W" id="1vm-tK-OBn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gB4-HO-Gea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3960" y="554"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="ant.fill" catalog="system" width="106" height="128"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="headerGOW" width="393" height="346"/>
+        <image name="headerLocus" width="1512" height="712"/>
         <namedColor name="GOWBlack1">
             <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
