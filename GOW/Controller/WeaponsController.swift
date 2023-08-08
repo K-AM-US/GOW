@@ -42,7 +42,7 @@ class WeaponsController: UIViewController, UITableViewDelegate, UITableViewDataS
         ]
         
     //    Locus Weapons
-        let locusWeapons : [Weapon] = [
+        let locustWeapons : [Weapon] = [
             Weapon(
             id: 1, name: "weapon.name.boomshot",
             description: "weapon.description.boomshot",
@@ -79,7 +79,7 @@ class WeaponsController: UIViewController, UITableViewDelegate, UITableViewDataS
             arrayWeapons = cgoWeapons
         }
         else{
-            arrayWeapons = locusWeapons
+            arrayWeapons = locustWeapons
         }
         
         // Do any additional setup after loading the view.
