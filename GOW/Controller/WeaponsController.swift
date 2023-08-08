@@ -90,22 +90,12 @@ class WeaponsController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = WeaponCell()
         
-        if self.restorationIdentifier == "cogUi"{
-            cell = tableView.dequeueReusableCell(withIdentifier: "cell1") as! WeaponCell
-            cell.wName.text = NSLocalizedString(arrayWeapons[indexPath.row].name, comment: "")
-            cell.wImage.image = UIImage(named: arrayWeapons[indexPath.row].poster)
-            cell.wDescription.text = NSLocalizedString(arrayWeapons[indexPath.row].description, comment: "")
-        }else{
-            cell = tableView.dequeueReusableCell(withIdentifier: "cell1") as! WeaponCell
-            cell.wName.text = NSLocalizedString(arrayWeapons[indexPath.row].name, comment: "")
-            cell.wImage.image = UIImage(named: arrayWeapons[indexPath.row].poster)
-            cell.wDescription.text = NSLocalizedString(arrayWeapons[indexPath.row].description, comment: "")
-        }
-        
-        
-        
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell1") as! WeaponCell
+        cell.wName.text = NSLocalizedString(arrayWeapons[indexPath.row].name, comment: "")
+        cell.wImage.image = UIImage(named: arrayWeapons[indexPath.row].poster)
+        cell.wDescription.text = NSLocalizedString(arrayWeapons[indexPath.row].description, comment: "")
+                
+    return cell
     }
 }
