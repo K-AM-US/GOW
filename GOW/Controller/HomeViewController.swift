@@ -44,7 +44,7 @@ class HomeViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! MenuOptionCell
 
-        cell.menuOptionLabel.text = NSLocalizedString(menuOptions[indexPath.row].title, comment: "")
+        cell.menuOptionLabel.text = menuOptions[indexPath.row].title.localized
         cell.menuImage.image = UIImage(systemName: menuOptions[indexPath.row].image)
 
         return cell

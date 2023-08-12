@@ -21,6 +21,7 @@
 		11239FEE2A7F2C690034C032 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11239FED2A7F2C690034C032 /* Weapon.swift */; };
 		11239FF02A7F36D70034C032 /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11239FEF2A7F36D70034C032 /* CGF Locust Resistance.ttf */; };
 		11239FF42A7F3FB40034C032 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11239FF22A7F3FB40034C032 /* Localizable.strings */; };
+		11CA5DA62A8733BE003295B9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA5DA52A8733BE003295B9 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		11239FF92A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		11239FFA2A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = ../sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11239FFB2A7F4C770034C032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11CA5DA52A8733BE003295B9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,17 +81,18 @@
 		11239FC42A7EA1710034C032 /* GOW */ = {
 			isa = PBXGroup;
 			children = (
+				11CA5DA42A873224003295B9 /* Extensions */,
 				11239FF12A7F3ED30034C032 /* Localization */,
 				11239FDF2A7EA8200034C032 /* Model */,
 				11239FE22A7EA9F00034C032 /* View */,
 				11239FDE2A7EA5CB0034C032 /* Controller */,
+				11239FDB2A7EA43B0034C032 /* Fonts */,
 				11239FC52A7EA1710034C032 /* AppDelegate.swift */,
 				11239FC72A7EA1710034C032 /* SceneDelegate.swift */,
 				11239FCB2A7EA1710034C032 /* Main.storyboard */,
-				11239FCE2A7EA1710034C032 /* Assets.xcassets */,
 				11239FD02A7EA1710034C032 /* LaunchScreen.storyboard */,
+				11239FCE2A7EA1710034C032 /* Assets.xcassets */,
 				11239FD32A7EA1710034C032 /* Info.plist */,
-				11239FDB2A7EA43B0034C032 /* Fonts */,
 			);
 			path = GOW;
 			sourceTree = "<group>";
@@ -136,6 +139,14 @@
 				11239FF22A7F3FB40034C032 /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		11CA5DA42A873224003295B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11CA5DA52A8733BE003295B9 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 			files = (
 				11239FC62A7EA1710034C032 /* AppDelegate.swift in Sources */,
 				11239FE42A7EAA060034C032 /* MenuOptionCell.swift in Sources */,
+				11CA5DA62A8733BE003295B9 /* StringExtension.swift in Sources */,
 				11239FE12A7EA8380034C032 /* MenuOption.swift in Sources */,
 				11239FEA2A7F25BB0034C032 /* WeaponsController.swift in Sources */,
 				11239FE82A7EB46C0034C032 /* GamesController.swift in Sources */,
