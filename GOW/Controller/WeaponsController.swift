@@ -81,8 +81,6 @@ class WeaponsController: UIViewController, UITableViewDelegate, UITableViewDataS
         else{
             arrayWeapons = locustWeapons
         }
-        
-        // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

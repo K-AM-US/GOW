@@ -22,6 +22,7 @@
 		11239FF02A7F36D70034C032 /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11239FEF2A7F36D70034C032 /* CGF Locust Resistance.ttf */; };
 		11239FF42A7F3FB40034C032 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11239FF22A7F3FB40034C032 /* Localizable.strings */; };
 		11CA5DA62A8733BE003295B9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA5DA52A8733BE003295B9 /* StringExtension.swift */; };
+		11CA5DA82A8736FD003295B9 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA5DA72A8736FD003295B9 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		11239FFA2A7F465B0034C032 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = ../sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11239FFB2A7F4C770034C032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11CA5DA52A8733BE003295B9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		11CA5DA72A8736FD003295B9 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				11CA5DA52A8733BE003295B9 /* StringExtension.swift */,
+				11CA5DA72A8736FD003295B9 /* FontExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				11239FEC2A7F28DC0034C032 /* WeaponCell.swift in Sources */,
 				11239FC82A7EA1710034C032 /* SceneDelegate.swift in Sources */,
 				11239FDD2A7EA5B70034C032 /* HomeViewController.swift in Sources */,
+				11CA5DA82A8736FD003295B9 /* FontExtension.swift in Sources */,
 				11239FEE2A7F2C690034C032 /* Weapon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
