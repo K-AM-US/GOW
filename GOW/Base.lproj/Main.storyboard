@@ -31,6 +31,7 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-sx-Erv">
                                             <rect key="frame" x="10" y="0.0" width="40" height="60"/>
                                             <color key="backgroundColor" name="GOWBlack1"/>
+                                            <color key="tintColor" name="GOWRed"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="40" id="7B4-DE-Lo8"/>
                                                 <constraint firstAttribute="height" constant="40" id="DOT-E9-1vh"/>
@@ -139,9 +140,9 @@
                                                         <constraint firstAttribute="height" constant="150" id="RBZ-2U-4Jb"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orf-mv-Lwj">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orf-mv-Lwj">
                                                     <rect key="frame" x="20" y="231" width="353" height="58"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -328,6 +329,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="GOWRed"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" name="GOWRed"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" name="GOWText"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="42q-FH-com" kind="relationship" relationship="viewControllers" id="QNX-D6-ztI"/>
@@ -386,9 +396,9 @@
                                                         <constraint firstAttribute="height" constant="150" id="XL1-4g-TC5"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Is-rU2">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Is-rU2">
                                                     <rect key="frame" x="20" y="231" width="353" height="58"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -507,6 +517,9 @@
         <image name="headerLocus" width="1512" height="712"/>
         <namedColor name="GOWBlack1">
             <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GOWRed">
+            <color red="0.63899999856948853" green="0.050999999046325684" blue="0.054999999701976776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="GOWText">
             <color red="0.54100000858306885" green="0.5220000147819519" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
