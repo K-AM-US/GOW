@@ -24,6 +24,7 @@
 "weapon.description.hammer" = "The Hammer of Dawn var en COG Imulsion-energiserad, orbital, satellitbaserad laser. Dess nyckelkomponenter uppfanns av UIR-forskaren Mauris Ivo och kompletterades av professor Adam Fenix ​​efter att den stals under Operation: Leveler.";
 "weapon.description.pistol" = "Var standard sidovapen för Coalition of Ordered Governments väpnade styrkor personal";
 
+
 // Locust
 "weapon.name.boomshot" = "Boomshot granatkastare";
 "weapon.name.hammerburst" = "Hammerburst II";

@@ -24,8 +24,8 @@
 "weapon.description.hammer" = "Il Martello dell'Alba era un laser orbitale, basato su satellite, alimentato da Imulsion COG. I suoi componenti chiave sono stati inventati dallo scienziato dell'UIR Mauris Ivo e completati dal professor Adam Fenix ​​dopo che è stato rubato durante l'Operazione: Leveler.";
 "weapon.description.pistol" = "Era l'arma da fianco standard per il personale delle forze armate della Coalizione dei Governi Ordinati";
 
-// Locust
 
+// Locust
 "weapon.name.boomshot" = "Lanciatore di granate Boomshot";
 "weapon.name.hammerburst" = "Hammerburst II";
 "weapon.name.mulcher" = "Mulcher";

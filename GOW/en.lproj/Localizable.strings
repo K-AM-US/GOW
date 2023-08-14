@@ -25,8 +25,8 @@
 "weapon.description.hammer" = "The Hammer of Dawn was a COG Imulsion-energized, orbital, satellite-based laser. Its key components were invented by the UIR scientist Mauris Ivo and completed by professor Adam Fenix after it was stolen during Operation: Leveler.";
 "weapon.description.pistol" = "Was the standard sidearm for Coalition of Ordered Governments armed forces personnel";
 
-// Locust
 
+// Locust
 "weapon.name.boomshot" = "Boomshot Grenade Launcher";
 "weapon.name.hammerburst" = "Hammerburst II";
 "weapon.name.mulcher" = "Mulcher";
